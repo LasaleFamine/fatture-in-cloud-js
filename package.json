@@ -1,0 +1,45 @@
+{
+  "name": "fatture-in-cloud-js",
+  "description": "Fatture in Cloud API wrapper for Javascript",
+  "version": "0.0.0",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "url": "https://github.com/LasaleFamine/fatture-in-cloud-js",
+  "author": "LasaleFamine",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LasaleFamine/fatture-in-cloud-js.git"
+  },
+  "scripts": {
+    "test": "xo && karma start test/karma.conf.js --single-run"
+  },
+  "xo": {
+    "space": true,
+    "envs": ["browser", "node"],
+    "rules": {
+      "eol-last": 0,
+      "prefer-arrow-callback": 1,
+      "no-var": 1
+    }
+  },
+  "devDependencies": {
+    "jasmine": "^2.6.0",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-spec-reporter": "^0.0.31",
+    "xo": "^0.18.2"
+  },
+  "bugs": {
+    "url": "https://github.com/LasaleFamine/fatture-in-cloud-js/issues"
+  },
+  "homepage": "https://github.com/LasaleFamine/fatture-in-cloud-js#readme",
+  "keywords": [
+    "fatture",
+    "in",
+    "cloud",
+    "javascript",
+    "fatture-in-cloud"
+  ]
+}
