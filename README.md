@@ -6,4 +6,19 @@
 
 Using the `fetch` API to make the requests.
 
+## Usage 
+
+```javascript
+
+const fattureInCloud = new FattureInCloud({api_key: 'yourApiKey', api_uid: 'yourApiUid')})
+
+fattureInCloud
+  .create(USER)
+  .then(res => console.log(res))
+  .catch(err => console.error(err))
+
+```
+
+## Methods
+
 #### WIP
