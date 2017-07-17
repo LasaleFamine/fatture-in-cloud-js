@@ -1,4 +1,4 @@
-# Fatture In Cloud Js
+fatture-in-cloud-js
 
 [![Build Status](https://travis-ci.org/LasaleFamine/fatture-in-cloud-js.svg?branch=master)](https://travis-ci.org/LasaleFamine/fatture-in-cloud-js)
 
